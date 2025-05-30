@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
 
@@ -38,7 +38,7 @@
 
     <scm>
         <connection>scm:git:git://github.com/example/twitter-app.git</connection>
-        <developerConnection>scm:git:ssh://github.com:example/twitter-app.git</developerConnection>
+        <developerConnection>scm:git:ssh://github.com/example/twitter-app.git</developerConnection>
         <url>https://github.com/example/twitter-app</url>
         <tag>HEAD</tag>
     </scm>
@@ -68,6 +68,7 @@
         <dependency>
             <groupId>org.thymeleaf.extras</groupId>
             <artifactId>thymeleaf-extras-springsecurity6</artifactId>
+            <!-- Version managed by Spring Boot, or specify version if needed -->
         </dependency>
         <dependency>
             <groupId>com.h2database</groupId>
